@@ -1,0 +1,420 @@
+
+.firstcol{
+    background-color: green;
+    height: 300px;
+} 
+
+.secondcol{
+    background-color: blue;
+    height: 300px;
+
+}
+
+.col1{
+    background-color: rgb(0, 255, 191);
+    height: 300px;
+
+}
+
+.col2{
+    background-color: rgb(121, 44, 172);
+    height: 300px;
+
+}
+
+.col3{
+    background-color: rgb(222, 145, 12);
+    height: 300px;
+
+}
+
+.col4{
+    background-color: rgb(47, 128, 194);
+    height: 300px;
+
+}
+
+.header h1{
+    color:#dfdfdf;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 28px;
+    text-transform: uppercase;
+
+}
+
+.header-iphone img{
+    width:100%;
+}
+
+.header{
+    background-image: url("../images/background\ picture\ \ 01.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: 50% 50% ;
+    padding-bottom: 600px;
+    /* margin-top: 50px; */
+ 
+
+
+}
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 50px;
+
+}
+
+.btn-download{
+    background: transparent;
+    border-color: #129CF3;
+    border-radius: 3px;
+}
+.btn-download:hover{
+    background-color: #129CF3;
+    color: #fff;
+}
+
+
+.section-title{
+   padding-top:90px ;
+   padding-bottom: 50px;
+}
+
+.section-title h2{
+
+    text-align: center;
+    color:#333;
+    font-size: 30px;
+   
+    text-transform: uppercase;
+}
+
+.section-title p{
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+.choose-us-wrapper{
+    padding-top: 50px;
+}
+.about-iphone{
+    margin-top: 8px;
+}
+
+.choose-us-title {
+    padding-bottom: 50px;
+}
+.choose-us-title h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.choose-us-title p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.choose-us-item{
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
+.choose-us-item div{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.choose-us-item div i{
+    font-size: 55px;
+    color: #129CF3;
+    
+}
+.choose-us-item h3{
+    color:#343434;
+    font-size: 20px;
+}
+.choose-us-item p{
+    color:#727272;
+    font-size: 15px;
+}
+
+/* testimonial css    */
+
+.testimonials{
+    background-image: url("../images/testimonial-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+.testimonials-overlay{
+    background-color: rgba(31,31,31,.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators{
+    bottom: -13px;
+}
+.carousel-inner .item img{
+    border:2px solid #129CF3;
+    border-radius: 50%;
+    padding :3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2{
+    color: #129CF3;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.testimonial-caption h4{
+    color: #129CF3;
+ 
+}
+.testimonial-caption p{
+    color: #d8d8d8;
+    font-size: 18px;
+    line-height:27px ;
+    padding-top: 50px;
+ 
+}
+/* featyre css    */
+
+.feature-inner-wrapper{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.left-feature-item{
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;   
+}
+.left-feature-item-icon{
+    
+    position: absolute;
+    right: 0;
+    top: -8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+.Right-feature-item{
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    text-align: left;
+    margin-top: 35px;   
+}
+.Right-feature-item-icon{
+    
+    position: absolute;
+    left: 0;
+    top: -8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+.feature-ipone{
+    width: 90%;
+}
+/* purchase section*/
+
+.purchase-now{
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.purchase-now p{
+    color: #dfdfdf;
+    font-size: 18px;
+}
+.btn-pruchase-now{
+border: 1px solid #129CF3;
+color: #fff;
+border-radius: 3px;
+padding: 15px 35px;
+text-transform: uppercase;
+}
+/* Counter Style */
+
+.counter{
+    background-image:url("../images/human\ 01.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.counter-overlay{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0,0,0,.4);
+}
+
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+
+.counter-item h2 {
+    color: #d8d8d8;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.counter-item p{
+    color: #d8d8d8;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+/* Download now */
+
+.download-now img{
+    width: 100%;
+}
+
+/* Available on */
+
+.Available-on{
+    background-color: #1a1a1a;
+}
+
+.Available-title{
+    padding-top: 75px;
+}
+
+.Available-title p{
+    color: #fff;
+}
+
+.Available-title h2{
+    font-size: 30px;
+    color: #fff;  
+}
+
+.Available-on-item {
+    text-align: center;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.Available-on-item i {
+    color: #129CF3;
+    text-align: center;
+    font-size: 40px;
+    padding-top:90px;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.Available-on-item:hover i{
+    opacity: .4;
+}
+
+.contect-us-form .form-control{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 21px;
+    color: #555;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+
+}
+
+#message{
+    height: 117px;
+}
+
+.submit-btn{
+    width: 100%;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 18px;
+    color: #129CF3;
+}
+
+.social-icon{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.social-icon ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+.social-icon ul li a{
+    display: inline-block;
+    border: 1px solid #9d9d9d;
+    width: 45px;
+    height: 45px;
+    text-align:center ;
+    line-height: 50px;
+    padding-top: 7px;
+}
+.social-icon ul li a:hover{
+    background-color: #129CF3 ;
+    border:1px solid #129CF3 ;
+    color:#fff;
+}
+
+.footer{
+    background-color: #1a1a1a;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#copyright{
+    width: 50%;
+}
+
+#copyright p{
+    color: #8c8b8a;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.scroll-up{
+    text-align: right;
+}
+
+.scroll-up a{
+    background-color: #129CF3;
+    padding: 25px;
+}
+
+.scroll-up a i{
+    color: #fff;
+    font-size: 25px;
+}
