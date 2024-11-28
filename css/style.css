@@ -31,23 +31,34 @@
 .col4{
     background-color: rgb(47, 128, 194);
     height: 300px;
-
 }
 
-.header h1{
-    color:#dfdfdf;
+.header-img h1{
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    color:#12f3f3;
     margin-top: 30px;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 28px;
     text-transform: uppercase;
+    font-family:Agency FB;
+    font-weight: 700;
+   
 
 }
 
-.header-iphone img{
-    width:100%;
-}
+.header-text h1{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: #f0f0f0 ;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family:Script MT Bold;
 
+}
 .header{
     background-image: url("../images/background\ picture\ \ 01.webp");
     background-attachment: fixed;
@@ -56,26 +67,8 @@
     background-position: 50% 50% ;
     padding-bottom: 600px;
     /* margin-top: 50px; */
- 
-
 
 }
-.header-btns{
-    margin-top: 90px;
-    margin-bottom: 50px;
-
-}
-
-.btn-download{
-    background: transparent;
-    border-color: #129CF3;
-    border-radius: 3px;
-}
-.btn-download:hover{
-    background-color: #129CF3;
-    color: #fff;
-}
-
 
 .section-title{
    padding-top:90px ;
