@@ -14,27 +14,85 @@
          <link rel="stylesheet" type="text/css" 
          href="css/font-awesome.min.css" >
 
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <link rel="stylesheet" href="styles.css">
+
     </head>
 
     <body>
 
         <!-- Header section -->
-         <header class="header">
+         <header class="header" id="Header">
+
+          <!-- Navigation -->
+<nav class="navbar robotic-navbar navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle for mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#robotic-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-small.png" alt="Logo" class="navbar-logo">
+      </a>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="robotic-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#Header" class="nav-item robotic-link">HOME</a></li>
+        <li><a href="#ABOUT" class="nav-item robotic-link">ABOUT</a></li>
+        <li><a href="#Robotics" class="nav-item robotic-link">ROBOTICS</a></li>
+        <li><a href="#line-following" class="nav-item robotic-link">LINE FOLLOWING ROBOT</a></li>
+        <li><a href="#robot-steps" class="nav-item robotic-link">BLUETOOTH ROBOT </a></li>
+        <li><a href="#steps" class="nav-item robotic-link">MICRO MOUSE ROBOT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text-center">
                             <div class="header-img"> 
                                 <h1>Future Technology</h1>
+                                <div class="header-btns " >
+                                    <a class="btn btn-download wow fadeInup">learn more</a>
+                                   
+                                </div>
                             </div>                           
                         </div>
                     </div>
                 </div>
-                <!-- This is second row -->
+            </div>
+        
+    </header>
+
+
+
+
+    <!-------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+           <!-- Introducion -->
+                <section id="ABOUT" >
+                    <div class="description">
+                <div class="container">
                 <div class="row">
+                    <div class="col-md-12">
+                   
                     <div class="col-md-6">
-                        <div class="header-text">
-                            <h1>What is technology?</h1>
+                        <div class="text">
+                            <h1>What is Technology?</h1>
                             <p>Technology is the use of scientific knowledge to create
                                 tools, techniques, and processes that help people solve
                                 problems, improve their lives, and achieve goals. It can 
@@ -48,12 +106,22 @@
                             <img src="images/Technology 03 new.webp" alt="Technology">
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
-        </header>
+                </div>
+                </div>
+                </section>
 
-        <!-- Testimonials -->
-        <section class="TESTIMONIALS" id="TESTIMONIALS">
+
+
+                <!------------------------------------------------------------------------------------------------------------>
+
+
+
+
+                
+         <!-- Testimonials -->
+         <section class="TESTIMONIALS" id="TESTIMONIALS">
             <div class="testimonials-overlay">
                 <div class="container">
                     <div class="row">
@@ -67,12 +135,11 @@
                                   <li data-target="#carousel-testimonials" data-slide-to="2"></li>
                                   <li data-target="#carousel-testimonials" data-slide-to="3"></li>
                                   <li data-target="#carousel-testimonials" data-slide-to="4"></li>
-
                                 </ol>
                               <div class="carousel-inner">
                                   <!-- item 1-->
-                                   <div class="item active text-center">
-                                    <a href=""><img src="images/Techtronic Technology 06.avif" class="center-block" 
+                                    <div class="item active text-center">
+                                    <a href="#Robotics"><img src="images/Techtronic Technology 06.avif" class="center-block" 
                                     alt="testimonial"></a>
                                     <div class="testimonial-caption">
                                         <h2>Electronic technology</h2>
@@ -105,53 +172,385 @@
                                    </div> 
                                    <!-- item 3-->
                                    <div class="item text-center">
-                                    <img src="images/Medical Technology.avif" class="center-block" 
-                                    alt="testimonial">
-                                    <div class="testimonial-caption">
+                                    <a href="https://www.medtecheurope.org/about-the-industry/what-is-medical-technology/"><img src="images/Medical Technology 01.png" class="center-block" 
+                                    alt="testimonial"></a>                                   
+                                     <div class="testimonial-caption">
                                         <h2>Medical technology</h2>
                                         <h4>Medical technology is the use of scientific knowledge and tools to diagnose, treat, and improve a person's health. It can include a variety of devices and software</h4>
                                     </div>
                                    </div> 
 
+
                                     <!-- item 4-->
-                                    <div class="item active text-center">
-                                        <img src="images/Communication Technology 01.jpg" class="center-block" 
-                                        alt="testimonial">
+                                    <div class="item text-center">
+                                        <a href="https://www.plvan.com/blog/information-and-communication-technology-ict/"><img src="images/Communication Technology 01.jpg" class="center-block" 
+                                        alt="testimonial"></a>
                                         <div class="testimonial-caption">
                                             <h2>communications technology</h2>
                                             <h4>Communication technology, also known as Information and Communication Technology (ICT), is a broad term for the tools and systems that allow people and organizations to interact and exchange information: </h4>
-                                           <div class="points">
+                                          
                                             <ul>
                                                 <li>Devices: Computers, landlines, and mobile phones</li>
                                                 <li>Applications: Video chat, messenger, social media, and email </li>
                                                 <li>Other technologies: The internet, wireless networks, software, middleware, and live and recorded broadcasting technologies</li>
                                             </ul>
-                                        </div>
-    
+                                        
+   
                                         </div>
                                        </div> 
 
-                                    <!-- item 5-->
-                                   <div class="item active text-center">
-                                    <img src="images/Indrusty Technology.jpg" class="center-block" 
-                                    alt="testimonial">
-                                    <div class="testimonial-caption">
-                                        <h2>industrial and manufacturing technologies</h2>
-                                        <h4>Industrial and manufacturing technologies are a set of technologies and methodologies that are used to improve the efficiency, quality, and productivity of industrial processes</h4>
-                                                         
+                                       <!-- item 5-->
+                                       <div class="item  text-center">
+                                        <a href="https://en.wikipedia.org/wiki/Industrial_technology#:~:text=Industrial%20technology%20is%20the%20use,achieve%20efficient%20and%20profitable%20productivity."><img src="images/Indrusty Technology.jpg" class="center-block" 
+                                        alt="testimonial"></a>
+                                        <div class="testimonial-caption">
+                                            <h2>industrial and manufacturing technologies</h2>
+                                            <h4>Industrial and manufacturing technologies are a set of technologies and methodologies that are used to improve the efficiency, quality, and productivity of industrial processes</h4>
+                                                             
+    
+                                        </div>
+                                       </div> 
+    
+                                        
+                                  </div>               
+                               
 
-                                    </div>
-                                   </div> 
-
-                                    
-                              </div>                              
                             <!-- end carousal-->
                              </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <!---------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+        <section id="Robotics" class="Robotics">
+            <div class="overy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                        <h2>Robotics</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Card one -->
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                        <div class="card-01">
+                            <div class="card" >
+                                
+                                <div class="card-body">
+                                    <img src="images/Line follow robot.webp" class="card-img-top" alt="Line following robot">
+                                  <h4 class="card-title">Line Following Robot</h4>
+                                  <p class="card-text">A line-following robot is a mobile machine that can autonomously detect and follow a line drawn on the floor. The line can be visible, like a black line on a white surface, or invisible, like a magnetic field. </p>
+                                  <a href="#line-following" class="btn btn-primary">More Information</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        <!-- Card two -->
+                        <div class="col-md-4">
+                        <div class="card-02">
+                            <div class="card" >
+                                
+                                <div class="card-body">
+                                    <img src="images/Bluetooth-Controlled-Robot-using-Arduino-Image-1.jpg.webp" class="card-img-top" alt="Blue tooth robot ">
+                                  <h4 class="card-title">Bluetooth control robot</h4>
+                                  <p class="card-text">A Bluetooth robot is a robot that uses Bluetooth technology to communicate with a remote device, such as a smartphone or computer, to allow the user to control it. Bluetooth is a wireless communication protocol that uses radio waves to exchange data over short distances. </p>
+                                  <a href="#robot-steps" class="btn btn-primary">More Information</a>
+                                </div>
+                              </div>
+                              </div>
+                              </div>
+                              <!-- Card three -->
+                              <div class="col-md-4">
+                              <div class="card-03">
+                                <div class="card">
+                                   
+                                    <div class="card-body">
+                                        <img src="images/Micro Mouse.jpg" class="card-img-top" alt="Micro Mouse Robot ">
+                                      <h4 class="card-title">Micro mouse</h4>
+                                      <p class="card-text">A Micromouse is a small, autonomous robot that navigates a maze to find the shortest path to the center.</p>
+                                      <a href="#steps" class="btn btn-primary">More Information</a>
+                                    </div>
+                                  </div>
+                                  
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+
+
+
+
+        <!----------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+  
+        <section class="line-following py-5" id="line-following">
+            <div class="liner">
+                <div class="container">
+                    <!-- Header Section -->
+                    <div class="text-center mb-5">
+                        <h2 class="display-4 fw-bold text-uppercase robotic-title">Line Following Robot</h2>
+                        <p class="text-muted lead">Build your own robot with these simple steps!</p>
+                    </div>
+        
+                    <!-- Timeline Section -->
+                    <div class="timeline">
+                        <!-- Step 1 -->
+                        <div class="timeline-item left">
+                            <div class="timeline-badge bg-primary text-white"><i class="fas fa-cogs"></i></div>
+                            <div class="timeline-panel shadow-sm">
+                                <h4 class="timeline-title text-primary">Step 1: Gather Materials</h4>
+                                <p class="text-muted">Make sure you have all the necessary components:</p>
+                                <ol>
+                                    <li><b>Microcontroller:</b> Arduino Uno, Nano, or similar.</li>
+                                    <li><b>Sensors:</b> IR sensors or a color sensor.</li>
+                                    <li><b>Motor Driver:</b> L298N, L293D, or similar.</li>
+                                    <li><b>Motors:</b> Two DC motors (or geared motors).</li>
+                                    <li><b>Chassis:</b> Robot frame or DIY platform.</li>
+                                    <li><b>Battery:</b> 9V or Li-ion rechargeable battery.</li>
+                                </ol>
+                            </div>
+                        </div>
+        
+                        <!-- Step 2 -->
+                        <div class="timeline-item right">
+                            <div class="timeline-badge bg-success text-white"><i class="fas fa-robot"></i></div>
+                            <div class="timeline-panel shadow-sm">
+                                <h4 class="timeline-title text-success">Step 2: Build the Chassis</h4>
+                                <ol>
+                                    <li>Assemble the base using wood, acrylic, or 3D printing.</li>
+                                    <li>Fix the two DC motors onto the chassis.</li>
+                                    <li>Mount wheels and attach a caster wheel for stability.</li>
+                                </ol>
+                                <img src="images/Making line folowing robot.webp" alt="Building Chassis" class="img-fluid rounded shadow-lg">
+                            </div>
+                        </div>
+        
+                        <!-- Step 3 -->
+                        <div class="timeline-item left">
+                            <div class="timeline-badge bg-warning text-dark"><i class="fas fa-microchip"></i></div>
+                            <div class="timeline-panel shadow-sm">
+                                <h4 class="timeline-title text-warning">Step 3: Set Up the Sensors</h4>
+                                <ol>
+                                    <li>Install two or three IR sensors at the front, pointing downward.</li>
+                                    <li>Ensure optimal positioning for accurate line detection.</li>
+                                </ol>
+                            </div>
+                        </div>
+        
+                        <!-- Step 4 -->
+                        <div class="timeline-item right">
+                            <div class="timeline-badge bg-danger text-white"><i class="fas fa-power-off"></i></div>
+                            <div class="timeline-panel shadow-sm">
+                                <h4 class="timeline-title text-danger">Step 4: Connect the Electronics</h4>
+                                <ol>
+                                    <li><b>Microcontroller:</b> Attach securely to the chassis.</li>
+                                    <li><b>Motor Driver:</b> Wire it to motors and Arduino.</li>
+                                    <li><b>Sensors:</b> Connect VCC, GND, and signal pins.</li>
+                                    <li><b>Power:</b> Connect a battery for motors and logic circuits.</li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+        <main class="main-container" >
+            <section id="robot-steps" class="steps-section" >
+
+                <!-- Header Section -->
+                 <div class="header-01">
+                <h1 class="title">Bluetooth-Controlled Robot</h1>
+    <p class="subtitle">Step-by-step guide to build your own futuristic robot</p>
+    </div>
+              <h2 class="section-title">How to Build a Bluetooth-Controlled Robot</h2>
+        
+              <!-- Step 1 -->
+              <div class="step">
+                <h3>Step 1: Gather Materials</h3>
+                <p>Make sure you have the following components:</p>
+                <ul class="materials">
+                  <li>Microcontroller (e.g., Arduino Uno or Nano)</li>
+                  <li>Bluetooth Module (e.g., HC-05 or HC-06)</li>
+                  <li>Motor Driver (e.g., L298N or L293D)</li>
+                  <li>Two DC Motors with wheels</li>
+                  <li>Chassis for the robot</li>
+                  <li>Li-ion or 9V Battery</li>
+                  <li>Switch and jumper wires</li>
+                  <li>Smartphone with a Bluetooth app</li>
+                </ul>
+              </div>
+        
+              <!-- Step 2 -->
+              <div class="step">
+                <h3>Step 2: Assemble the Chassis</h3>
+                <p>Follow these steps to prepare your robot's base:</p>
+                <ol>
+                  <li>Attach the motors securely to the chassis.</li>
+                  <li>Mount the wheels on the motors.</li>
+                  <li>Add a caster wheel for stability.</li>
+                  <li>Secure the battery on the chassis.</li>
+                </ol>
+              </div>
+        
+              <!-- Step 3 -->
+              <div class="step">
+                <h3>Step 3: Connect the Electronics</h3>
+                <p>Connect all components as follows:</p>
+                <ol>
+                  <li>Wire the motor driver to the motors and Arduino.</li>
+                  <li>Connect the Bluetooth module to the Arduino.</li>
+                  <li>Power the Arduino and motor driver using the battery.</li>
+                </ol>
+              </div>
+        
+              <!-- Step 4 -->
+              <div class="step">
+                <h3>Step 4: Upload the Code</h3>
+                <p>Use the provided Arduino code to control your robot.</p>
+                <pre class="code-snippet">
+                  // Code example...
+                </pre>
+              </div>
+        
+              <!-- Step 5 -->
+              <div class="step">
+                <h3>Step 5: Test and Enhance</h3>
+                <p>Pair the Bluetooth module with your phone, test, and add enhancements like LEDs or enclosures.</p>
+              </div>
+            </section>
+          </main>
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+          <main>
+            <section id="steps" class="steps-container">
+
+              <div class="header-02">
+                <div class="container-01 text-center">
+                <h1 class="title">Micromouse Robot Guide</h1>
+                <p class="subtitle">Step-by-step instructions to build a maze-navigating robot.</p>
+                </div>
+              <div class="step">
+                <h2>Step 1: Understand the Requirements</h2>
+                <p>Learn the rules of the competition. The robot must autonomously navigate a maze and find the shortest path to the goal.</p>
+              </div>
+        
+              <div class="step">
+                <h2>Step 2: Gather Components</h2>
+                <p>Collect the following components:</p>
+                <ul>
+                  <li>Microcontroller: Arduino Nano, ESP32, or STM32</li>
+                  <li>Two DC motors with encoders</li>
+                  <li>Motor driver: L298N or DRV8833</li>
+                  <li>Sensors: IR proximity sensors, Gyroscope (e.g., MPU6050)</li>
+                  <li>Battery: LiPo (7.4V) and voltage regulator</li>
+                  <li>Lightweight chassis, wheels, and caster wheel</li>
+                </ul>
+              </div>
+        
+              <div class="step">
+                <h2>Step 3: Design the Chassis</h2>
+                <ol>
+                  <li>Choose lightweight materials like acrylic or 3D-printed plastic.</li>
+                  <li>Attach motors, sensors, and battery for proper weight distribution.</li>
+                </ol>
+              </div>
+        
+              <div class="step">
+                <h2>Step 4: Assemble the Electronics</h2>
+                <p>Connect the components:</p>
+                <ol>
+                  <li>Wire the motor driver to the motors and microcontroller.</li>
+                  <li>Connect the IR sensors and gyroscope to the microcontroller.</li>
+                  <li>Attach the battery to power the system.</li>
+                </ol>
+              </div>
+        
+              <div class="step">
+                <h2>Step 5: Write the Code</h2>
+                <p>Program the microcontroller:</p>
+                <ol>
+                  <li>Control motors using PWM.</li>
+                  <li>Read data from sensors and gyroscope.</li>
+                  <li>Implement a maze-solving algorithm like Flood Fill or Wall Follower.</li>
+                </ol>
+                <pre class="code-snippet">
+        // Example: Simple Wall Follower Algorithm
+        if (left_sensor_detects_wall) {
+            if (front_sensor_detects_wall) {
+                turn_right();
+            } else {
+                move_forward();
+            }
+        } else {
+            turn_left();
+        }
+                </pre>
+              </div>
+        
+              <div class="step">
+                <h2>Step 6: Test and Optimize</h2>
+                <ol>
+                  <li>Test each component (motors, sensors).</li>
+                  <li>Fine-tune movement and wall detection.</li>
+                  <li>Adjust speed for optimal navigation.</li>
+                </ol>
+              </div>
+            </section>
+          </main>
+
+          <footer class="footer">
+            <p>&copy; 2024 Your Robotics Lab. All rights reserved.</p>
+          </footer>
+          <script src="script-01.js"></script>
+
+
+          <script src="js/script.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/robotic.js"></script>
 
           <!-- boostrap java script -->
           <script src="js/jquery.js"></script>
